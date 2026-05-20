@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warm_white"
+    android:clipChildren="false">
+
+    <!-- Cercles de décoration -->
+    <View
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-100dp"
+        android:layout_marginEnd="-100dp"
+        android:alpha="0.08"
+        android:background="@drawable/pulse_dot"
+        android:backgroundTint="@color/terracotta" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Logo -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA"
+                    android:textColor="@color/espresso"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Decor"
+                    android:textColor="@color/terracotta"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Eyebrow -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:letterSpacing="0.2"
+                android:text="INTELLIGENCE ARTIFICIELLE &amp; DESIGN"
+                android:textColor="@color/gold"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <!-- Titre Principal -->
+            <TextView
+                android:id="@+id/tvSplashTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Transformez votre espace avec l\'IA"
+                android:textColor="@color/espresso"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <!-- Sous-titre -->
+            <TextView
+                android:id="@+id/tvSplashSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:text="Découvrez une nouvelle façon de concevoir votre intérieur grâce à notre moteur d\'intelligence artificielle décorative."
+                android:textColor="@color/espresso"
+                android:alpha="0.7"
+                android:textSize="16sp" />
+
+            <!-- Boutons -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSplashRegister"
+                style="@style/LuxuryButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="80dp"
+                android:text="Essayer Gratuitement" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSplashLogin"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="32dp"
+                android:text="Se Connecter"
+                android:textColor="@color/espresso"
+                app:strokeColor="@color/espresso"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Luxury" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

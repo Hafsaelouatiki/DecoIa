@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette Premium DecoIA (Sauge & Or) -->
+    <color name="deco_beige_bg">#F9F6F0</color>
+    <color name="deco_sauge">#A3B8A3</color>
+    <color name="deco_sauge_dark">#7A8F7A</color>
+    <color name="deco_gold">#C7A87B</color>
+    <color name="deco_text_main">#2C2C2C</color>
+    <color name="deco_text_sub">#6E6E6E</color>
+
+    <!-- Base Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Compatibility & Luxury Palette -->
+    <color name="luxury_brown_light">#C7A87B</color>
+    <color name="luxury_off_white">#F9F6F0</color>
+
+    <!-- Compatibility -->
+    <color name="gold">#C7A87B</color>
+    <color name="terracotta">#E2725B</color>
+    <color name="espresso">#2C2C2C</color>
+    <color name="warm_white">#F9F6F0</color>
+    <color name="deco_hero">#A3B8A3</color>
+
+    <!-- Missing Colors Mapping -->
+    <color name="deco_bg">@color/deco_beige_bg</color>
+    <color name="deco_accent">@color/deco_gold</color>
+    <color name="deco_card">@color/white</color>
+    <color name="deco_text">@color/deco_text_main</color>
+    <color name="deco_subtext">@color/deco_text_sub</color>
+    <color name="luxury_espresso">@color/espresso</color>
+</resources>

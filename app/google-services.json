@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934539577124",
+    "project_id": "decoia-6a5e3",
+    "storage_bucket": "decoia-6a5e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934539577124:android:0af099749d8384cdc555b1",
+        "android_client_info": {
+          "package_name": "hafsa.elouatiki.decoia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOKv3FTO1912MyyCR1lHBmmIFM-rF95zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

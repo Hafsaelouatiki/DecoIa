@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DecoIA</string>
+    <string name="hero_title">Réinventez votre intérieur avec l\'IA</string>
+    <string name="hero_subtitle">Le luxe et l\'innovation au service de votre décoration.</string>
+    <string name="btn_try">Essayer l\'IA</string>
+    <string name="btn_login">Se Connecter</string>
+    <string name="btn_register">S\'inscrire</string>
+    <string name="welcome_back">Bienvenue</string>
+    <string name="dashboard_title">Mon Dashboard Decor</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="ia_box_hint">Décrivez votre pièce de rêve...</string>
+</resources>
